@@ -36,17 +36,6 @@ The main steps of the project are:
 
 ## Code Implementation
 
-```python
-from __future__ import print_function
-
-import keras
-from keras.datasets import fashion_mnist
-from keras.models import Sequential
-from keras.layers import Dense, Dropout
-from keras.optimizers import RMSprop
-import numpy as np
-import matplotlib.pyplot as plt
-import tensorflow as tf
 
 ## Explanation
 1. **Load and preprocess the data**: We start by loading the Fashion MNIST dataset and reshaping the data into vectors of size 784 (28x28) and normalizing the pixel values to the range [0, 1].
