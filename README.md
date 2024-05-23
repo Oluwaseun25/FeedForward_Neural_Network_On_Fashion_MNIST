@@ -34,9 +34,6 @@ The main steps of the project are:
 5. **Evaluate the model**
 6. **Visualize training results**
 
-## Code Implementation
-
-
 ## Explanation
 1. **Load and preprocess the data**: We start by loading the Fashion MNIST dataset and reshaping the data into vectors of size 784 (28x28) and normalizing the pixel values to the range [0, 1].
 2. **Build the neural network architecture**: The network consists of an input layer, two hidden layers with 512 neurons each and ReLU activation, and a dropout layer to prevent overfitting. The output layer has 10 neurons with softmax activation to classify the images into one of the 10 categories.
